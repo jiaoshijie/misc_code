@@ -1,0 +1,76 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  /* background-color: red; */
+  text-align: center;
+  padding: 0px;
+}
+
+div {
+  text-align: center;
+}
+
+#num-one {
+  font-size: 20px;
+}
+
+#num-two {
+  font-size: 20px;
+}
+
+#add-sum {
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+
+.img_list {
+  /* background-color: red; */
+  font-size: 30px;
+  margin: 0;
+  /* padding-left: 950px; */
+}
+
+.img_list li {
+  margin: 10px;
+  color: purple;
+  /* padding: 80px; */
+  /* margin-left: 20px; */
+  margin-right: 1775px;
+  text-align: center;
+}
+
+.img_list li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.img_list li a:hover {
+  text-decoration: underline;
+}
+
+/* li:hover { */
+/*   text-decoration: underline; */
+/*   color: #00005e; */
+/* } */
+
+img {
+  /* display: none; */
+  width: 500px;
+  height: 500px;
+  box-shadow: white 1px 1px 10px;
+  border-radius: 10px;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,7 @@
+cycler==0.11.0
+fonttools==4.31.2
+imageio==2.16.1
+kiwisolver==1.4.2
+matplotlib==3.5.1
+protobuf==3.20.0
+tensorboardX==2.5

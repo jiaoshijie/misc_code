@@ -1,0 +1,42 @@
+body {
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Source Code Pro;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #b2ebf2;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  color: black;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+div {
+  background: green;
+  width: 100px;
+  margin: auto;
+}
+
+footer {
+  background: purple;
+  padding: 20px 55px;
+}

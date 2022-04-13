@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      body {
+        background: gray;
+        font-family: Source Code Pro;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      section.feature-box {
+        display: flex;
+      }
+
+      /*class 选择器*/
+      .feature-box div {
+        width: 100%;
+        margin: 1px;
+      }
+
+      .feature-box.sales div {
+        background: rgb(58, 150, 58);
+      }
+
+      .feature-box.closeouts div {
+        background: rgb(150, 58, 58);
+      }
+
+      /*id 选择器*/
+      #frank {
+        font-size: 200%;
+      }
+
+      /*伪类*/
+      li:first-child {
+        background: pink;
+      }
+
+      li:last-child {
+        background: purple;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="locations.html">locations</a></li>
+      <li><a href="directions.html">directions</a></li>
+    </ul>
+
+    <section id="frank" class="feature-box sales">
+      <div>Section a</div>
+      <div>Section b</div>
+      <div>Section c</div>
+    </section>
+
+    <section class="feature-box closeouts">
+      <div>Section d</div>
+      <div>Section e</div>
+    </section>
+
+  </body>
+</html>
