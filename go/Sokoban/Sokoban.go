@@ -1,9 +1,9 @@
 package main
 
 import (
-  "fmt"
-  "os"
-  "os/exec"
+	"fmt"
+	"os"
+	"os/exec"
 )
 
 type G_Player struct {
