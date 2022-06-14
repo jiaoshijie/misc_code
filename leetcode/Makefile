@@ -1,6 +1,6 @@
 V := @
 
-Source := ./0060_getPermutation.cpp
+Source := ./0070_climbStairs.cpp
 # Source := ./0000_test.cpp
 
 
