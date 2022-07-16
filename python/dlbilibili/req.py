@@ -14,12 +14,12 @@ class HttpError(Exception):
     pass
 
 
-def Get(url, headers=FakeHeader, referer=False):
+def Get(url, headers=FakeHeader, referer=""):
     if "Referer" not in headers:
-        headers["Referer"] = url if referer is False else referer
+        headers["Referer"] = url if referer == "" else referer
     html = requests.get(url, headers=headers)
     if html.status_code >= 400:
-        return "", HttpError("connot connect the server.")
+        return html, HttpError("connot connect the server.")
 
     return html, 0
 
