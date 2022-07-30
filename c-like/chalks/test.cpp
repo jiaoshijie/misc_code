@@ -2,8 +2,8 @@
 
 int main() {
   // chalks::printColors(chalks::bg_colors::cyan, "JiaoShiJie", true);
-  // std::cout << "Hello\n";
   // chalks::_256colors::showAll256Color();
-  chalks::textStyle::showAlltextStyle();
+  // chalks::textStyle::showAlltextStyle();
+  chalks::fg_colors::showAllColors();
   return 0;
 }

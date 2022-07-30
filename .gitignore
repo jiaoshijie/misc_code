@@ -18,7 +18,6 @@ __pycache__/
 uc
 *.csv
 tags
-sswm
 docs
 *.pth
 *.pt
